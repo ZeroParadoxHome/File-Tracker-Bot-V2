@@ -30,6 +30,11 @@ Send the following commands to the bot:
 ## Setup
 
 1. Clone this repository
+
+```bash
+git clone https://github.com/ZeroParadoxHome/File-Tracker-Bot-V2.git
+```
+
 2. Install dependencies:
 
 ```bash
@@ -37,6 +42,7 @@ pip install -r requirements.txt
 ```
 
 3. Create a `settings.json` file with your Telegram API credentials and bot token:
+
 ```json
 {
     "api_id": "YOUR_API_ID",
@@ -45,7 +51,8 @@ pip install -r requirements.txt
     "admin_user_id": YOUR_USER_ID,
     "folder_paths": [
         "/path/to/folder1",
-        "/path/to/folder2"
+        "/path/to/folder2",
+        "/path/to/folder3"
     ]
 }
 ```
